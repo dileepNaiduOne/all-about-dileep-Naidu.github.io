@@ -1,0 +1,419 @@
+
+@media screen and (max-width: 1300px){
+    html{
+        width:100%;
+        font-size: 12px;
+
+        box-sizing: border-box;
+    }
+    *, *:before, *:after {
+        box-sizing: inherit;
+
+    }
+
+    body{
+        width: 100%;
+        padding: 0 30px;
+        background:#ECE9EC;
+        color:#000000;
+        margin: 0;
+        padding: 0;
+        font-family: 'Rubik', sans-serif;
+        line-height:1.6;
+        font-size: 10px;  
+    }
+
+    .btn{
+        color:white;
+        text-decoration:none;
+        background:rgba(28,17,38, 1);
+        font-size: 50px;
+        padding:50px;
+        border: 100px;
+        border-radius: 100px;
+    }
+
+    .btn:hover{
+        background:rgba(28,17,38, 0.3);
+    }
+
+
+    /*Header
+    -----------------------------------------------------------------------------------------*/
+
+    .head{
+        width:100%;
+        background: rgba(28,17,38, 1);
+        display:block;
+        /* background: linear-gradient(to right, rgba(255,235,10, 0.7), rgba(28,17,38, 1), rgba(28,17,38, 1)); */
+        color:#ECE9EC;
+        padding:10px 0;
+        padding-right: 30px;
+        text-align: right;
+    }
+
+    .blankhead{
+        background:#FFEB0A;
+        height: 20px;
+    }
+
+    .head1{
+        color:#FFEB0A;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 100;
+        font-size: 4rem;
+        margin: 0;
+        padding-top: 40px;
+        line-height: 0.5;
+    }
+
+    .one{
+        display: inline-block;
+        text-decoration: line-through;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 100;
+        font-size: 1rem;
+        margin: 0;
+    }
+
+    .two{
+        display: inline-block;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 100; 
+        font-size: 1rem;
+        margin: 0;
+    }
+
+
+    /*about
+    ------------------------------------------------------------------------------*/
+
+    .about{
+        padding:0 30px;
+    }
+
+    .head5{
+        color:rgba(28,17,38, 1);
+        font-family: 'Zilla Slab', serif;
+        font-size: 4rem;
+        margin: 20px 0 30px;
+        padding: 10px 0;
+        line-height:0.8;
+        border-bottom: 2px dashed gray;
+    }
+
+    .about-text{
+        font-family: 'Zilla Slab', serif;
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+
+    .about-head1{
+        color:black;
+        text-align: right;
+        /* padding: 20px; */
+        padding-right: 3rem;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 100;
+        font-size: 3rem;
+        margin: 20px 0;
+        line-height:0.8;
+        border-bottom: 1px solid gray;
+    }
+
+    .about-list li{
+        list-style-type: square;
+    }
+
+    .about-image{
+        margin: 0 auto;
+        margin-bottom: 30px;
+        margin-top: 30px;
+        width: 150px;
+        height: 150px;
+        position: relative;
+        overflow: hidden;
+        border-radius: 50%;
+    }
+    
+    img {
+        display: inline;
+        margin: -15px 0 0 -5px;
+        height: 140%;
+        width: auto;
+    }
+
+    /*projects
+    ------------------------------------------------------------------------------*/
+
+    .vid1, .vid2, .vid3, .vid4{
+        width:250px;
+        height:125px;
+    }
+
+    .vid5, .vid6{
+        width:200px;
+        height:100px;
+    }
+    .other-projects-vid1, .other-projects-vid2{
+        display:flex;
+        /* align-items: center; */
+        justify-content:center;
+        padding-bottom: 20px;
+    }
+
+    .head2{
+        color:rgba(28,17,38, 1);
+        font-family: 'Zilla Slab', serif;
+        font-size: 4rem;
+        margin: 0;
+        padding: 20px 0;
+        line-height:0.8;
+        border-bottom: 2px dashed gray;
+    }
+
+    .project1-heading ,  .project2-heading,  .project3-heading, .project4-heading{
+        font-size:1.5rem;
+        text-align:center;
+        margin: 0;
+        font-family: 'Zilla Slab', serif;
+        color:rgba(28,17,38, 1)
+    }
+
+    .project1-text p, .project2-text p, .project3-text p, .project4-text p{
+        text-align:center;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+
+    .project1-vid, .project2-vid, .project3-vid, .project4-vid{
+        display:flex;
+        justify-content:center;
+    }
+
+    .project1-text{
+        margin-top: 20px;
+    }
+
+    .project2, .project4{
+        background:#FFEB0A;
+        padding:0;
+        width: 100%;
+        padding: 20px 30px;
+    }
+    .project1, .project3{
+        padding:0;
+        padding: 20px 30px;
+    }
+
+    .other-projects{
+        padding:0 30px;
+    }
+
+    .projects-text{
+
+        font-size:1.8rem;
+        text-align:center;
+        font-family: 'Zilla Slab', serif;
+        color:rgba(28,17,38, 1);
+        margin-bottom: 20px;
+        padding-top: 20px;
+        border-bottom: 1px solid gray;
+    }
+
+    /*Education
+    ------------------------------------------------------------------------------*/
+
+    .edu{
+        padding: 20px 30px 40px;
+    }
+
+
+    .head4{
+        color:rgba(28,17,38, 1);
+        font-family: 'Zilla Slab', serif;
+        font-size: 4rem;
+        border-bottom: 2px dashed gray;
+        margin: 0;
+        padding: 20px 0 10px;
+        line-height:0.8;
+    }
+
+    .edu1 > p, .edu2 > p{
+        /* border-top: 1px dashed gray; */
+        padding: 0;
+        margin: 0;
+        border-bottom: 1px dashed gray;
+    }
+
+    .edu1 > h3, .edu2 > h3{
+        padding: 0;
+        padding-top: 5px;
+        margin: 0;
+    }
+
+    /*skills-intrest-hobbies
+    ------------------------------------------------------------------------------*/
+    .SIH{
+        font-size: 10px;
+        padding: 20px 30px;
+        /* display: flex; */
+        /* align-items: center; */
+    }
+
+    .S h2, .I h2, .H h2{
+        text-align:center;
+        color:rgba(28,17,38, 1);
+        font-family: 'Zilla Slab', serif;
+        font-size: 2rem;
+        line-height: 0.8;
+        margin: 0;
+        padding: 0;
+        
+    }
+
+
+    .S{
+        display: grid;
+        border-bottom: 1px dashed gray;
+        grid-template-columns: 1.5fr 3fr;
+        align-items: center;
+    }
+
+    .S ul{
+        display: flex;
+        padding: 0;
+        flex-wrap: wrap;
+        list-style-type: none;
+        border-left: 1px dashed gray;
+        padding-left: 5px;
+    }
+
+    .S li{
+        margin: 3px;
+        background:rgba(255,235,10, 0.4);
+    }
+
+
+
+    .I{
+        display: grid;
+        border-bottom: 1px dashed gray;
+        grid-template-columns: 1.5fr 3fr;
+        align-items: center;
+    }
+
+    .I ul{
+        display: flex;
+        padding: 0;
+        flex-wrap: wrap;
+        list-style-type: none;
+        border-left: 1px dashed gray;
+        padding-left: 5px;
+    }
+
+    .I li{
+        margin: 3px;
+        background:rgba(255,235,10, 0.4);
+    }
+
+
+
+    .H{
+        display: grid;
+        border-bottom: 1px dashed gray;
+        grid-template-columns: 1.5fr 3fr;
+        align-items: center;
+        
+    }
+
+    .H ul{
+        display: flex;
+        padding: 0;
+        flex-wrap: wrap;
+        list-style-type: none;
+        border-left: 1px dashed gray;
+        padding-left: 5px;
+    }
+
+    .H li{
+        margin: 3px;
+        background:rgba(255,235,10, 0.4);
+    }
+
+    /*footer
+    ------------------------------------------------------------------------------*/
+
+    .foot{
+        background: rgba(28,17,38, 1);
+        color:#ECE9EC;
+        /* padding:10px 80px; */
+        display: block;
+        overflow: hidden;
+        padding:0 30px;
+        padding-bottom: 20px;
+    }
+
+    .head3{
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 100;
+        padding: 0;
+        margin: 0;
+        margin-top: 20px;
+        font-size: 3rem;
+        text-align: center;
+        /* padding:0 30px; */
+    }
+
+    .social-tags{
+        /* width:400; */
+        font-size:3rem;
+        list-style: None;
+        display: flex;
+        padding:0;
+        justify-content:center;
+        margin: 0;
+    }
+
+    .social-tags li{
+        float:left;
+        padding:0 15px;
+    }
+
+    .social-tags i{
+        color: rgba(255,235,10, 1);
+    }
+
+    .coding-tags div{
+        list-style: None;
+        overflow: hidden;
+        /* display: inline-block; */
+        /* float:left; */
+        /* width:100px; */
+        text-align: center;
+        font-size: 1.5rem;
+        
+    }
+
+    .coding-tags{
+        padding: 0;
+        padding-bottom: 20px;
+    }
+    .coding-tags a{
+        text-decoration:none;
+        color:rgba(255,235,10, 1);
+        
+    }
+
+    .name-tag{
+        color: rgba(255,235,10, 1);
+        text-align: center;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 100;
+        font-size: 10rem;
+        /* display: flex; */
+        /* overflow: hidden; */
+        padding: 0;
+        line-height: 1;
+    }
+}
