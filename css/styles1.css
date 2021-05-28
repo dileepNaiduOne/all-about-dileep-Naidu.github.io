@@ -118,11 +118,13 @@
         font-size: 3rem;
         margin: 20px 0;
         line-height:0.8;
+        padding-bottom: 6px;
         border-bottom: 1px solid gray;
     }
 
     .about-list li{
         list-style-type: square;
+        line-height:1.5;
     }
 
     .about-image{
@@ -248,7 +250,7 @@
 
     .edu1 > h3, .edu2 > h3{
         padding: 0;
-        padding-top: 5px;
+        padding-top: 10px;
         margin: 0;
     }
 
